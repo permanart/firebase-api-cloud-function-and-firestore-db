@@ -7,7 +7,7 @@ admin.initializeApp({
         projectId: functions.config().project.id,
         clientEmail: functions.config().client.email 
     }),
-    databaseURL: 'https://arkademi-flutter-v201.firebaseio.com'
+    databaseURL: 'https://firebase.firebaseio.com'
 })
 
 const db = admin.firestore()
